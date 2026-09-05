@@ -1,0 +1,48 @@
+/**
+ 
+@name Gray Themes
+@author Chuotbeos
+@version 1.4.X
+@description The Forgotten Shrine of Whispering Shadows
+@source https://github.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/tree/master/Themes/GGO_Kirito*/
+
+@import url('https://raw.githack.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/GGO_Kirito/core.css');
+
+:root{
+     --background: url('9ebc038f0274b0e9f9a2c1532f0f0a75.bmp');
+     --activetext-colour: white;
+ 
+     --primary1-colour: #c0c0c0;
+     --primary2-colour: rgba(220,220,220,0.4);
+     --primary3-colour: rgba(60,60,60,0.7);
+     --primary4-colour: rgba(40,40,40,0.5);
+ 
+     --secondary1-colour: rgba(25,25,25,0.5);
+     --secondary2-colour: rgba(120,120,125,0.4);
+     --secondary3-colour: rgba(15,15,15,0.85);
+     --secondary4-colour: rgba(0,0,0,0.6);
+}
+
+/* --- ẨN DANH SÁCH BẠN BÈ Ở GIỮA (CHỈ HIỆN KHI RÊ CHUỘT) --- /
+div[class="peopleColumn"] {
+    opacity: 0 !important;
+    transition: opacity 0.25s ease-in-out !important;
+}
+
+div[class="peopleColumn"]:hover {
+    opacity: 1 !important;
+}
+
+/ --- TẮT HOÀN TOÀN CỘT BÊN PHẢI --- /
+[class="nowPlayingColumn"] {
+    width: 0px !important;
+    min-width: 0px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+    transition: all 0.25s ease-in-out !important;
+}
+
+[class="nowPlayingColumn"]:hover {
+    width: 360px !important;
+    opacity: 1 !important;
+}
